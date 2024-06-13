@@ -16,27 +16,3 @@ html {
 body {
   margin-bottom: 60px;
 }
-
-.userform {
-    box-sizing: border-box;
-}
-
-.img-bg {
-    background-color: #2196F3;
-    padding: 20px;
-    float: left;
-    width: 20%; /* The width is 20%, by default */
-}
-
-.noi-dung {
-    background-color: #f1f1f1 !important;
-    padding: 20px;
-    float: right;
-    width: 60%; /* The width is 60%, by default */
-}
-
-@media screen and (max-width: 800px) {
-    .img-bg, .noi-dung {
-        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-    }
-}
